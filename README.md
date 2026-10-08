@@ -4,17 +4,25 @@ A dedicated, lightweight web platform engineered to empower women's personal saf
 
 ---
 
-## 📌 Table of Contents
-- [Problem & Objective](#-problem--objective)
-- [Key Features](#-key-features)
-- [Tech Stack](#-tech-stack)
-- [Project Architecture](#-project-architecture)
-- [Database Schema (MySQL)](#-database-schema-mysql)
-- [Installation & Local Deployment](#-installation--local-deployment)
-- [Security & Best Practices](#-security--best-practices)
-- [Future Roadmap](#-future-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
+## ⚡ At a Glance
+
+| Status | Tech Stack | Target Audience | Primary Focus |
+| :--- | :--- | :--- | :--- |
+| 🟢 Active / v1.0 | PHP • MySQL • JS • CSS3 | Women & Students | Immediate Distress & Incident Reporting |
+
+> **Mission:** Accessible distress alert triggers and structured safety documentation in a lightweight web interface.
+
+---
+
+## 🎥 Project Demo
+
+<div align="center">
+  <!-- Replace YOUR_VIDEO_ID or replace this block with ![SafeHer Demo](assets/demo.gif) -->
+  <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
+    <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg" alt="SafeHer Demo Walkthrough" width="720">
+  </a>
+  <p><em>💡 Click the preview banner above to watch the full platform walkthrough.</em></p>
+</div>
 
 ---
 
@@ -29,13 +37,25 @@ Accessing critical safety contacts and logging harassment or safety incidents du
 
 ---
 
+## 👥 Platform Access & Modules
+
+| Module / Feature | Guest / Public | Registered User |
+| :--- | :---: | :---: |
+| **Emergency SOS Center** (`sos.php`) | ✅ | ✅ |
+| **Helplines Directory** (`helplines.php`) | ✅ | ✅ |
+| **Self-Defense Library** (`selfdefense.php`) | ✅ | ✅ |
+| **Incident Reporting** (`report.php`) | ❌ *(Sign-in required)* | ✅ |
+| **Personal Dashboard** (`dashboard.php`) | ❌ *(Sign-in required)* | ✅ |
+
+---
+
 ## ✨ Key Features
 
 - **User Authentication:** Session-based user registration, validation, and login workflow (`register.php`, `login.php`).
 - **Emergency SOS Center:** High-visibility distress page designed for fast response in emergencies (`sos.php`).
 - **Incident Reporting:** Structured forms allowing users to document encounters, locations, and descriptions (`report.php`).
 - **Interactive User Dashboard:** Central interface where authenticated users track their profile and view past actions (`dashboard.php`).
-- **Helplines Directory:** Curated, categorical listing of national and local emergency contact numbers (`helplines.php`).
+- **Helplines Directory:** Curated, categorical listing of emergency contact numbers (`helplines.php`).
 - **Self-Defense Library:** Step-by-step instructional safety techniques and awareness advice (`selfdefense.php`).
 - **Responsive Web Interface:** Lightweight, vanilla CSS styling optimized for both desktop and mobile viewports (`style.css`).
 
@@ -44,7 +64,7 @@ Accessing critical safety contacts and logging harassment or safety incidents du
 ## 💻 Tech Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
-- **Backend:** PHP (Procedural / Core)
+- **Backend:** PHP (Core / Procedural)
 - **Database:** MySQL
 - **Local Environment:** Apache Web Server (XAMPP / WampServer)
 
@@ -54,7 +74,7 @@ Accessing critical safety contacts and logging harassment or safety incidents du
 
 ```text
 ├── about.php          # Platform mission, vision, and team overview
-├── config.php         # Database configuration & MySQLi connection handle
+├── config.php         # Database configuration & MySQL connection handle
 ├── contact.php        # Feedback and inquiries contact form
 ├── dashboard.php      # Authenticated user management portal
 ├── helplines.php      # Directory of emergency services & helplines
@@ -66,5 +86,3 @@ Accessing critical safety contacts and logging harassment or safety incidents du
 ├── selfdefense.php    # Visual guides and actionable defense advice
 ├── sos.php            # Quick emergency trigger interface
 └── style.css          # Core styling, responsive grid, and UI themes
-
-
