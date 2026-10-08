@@ -17,7 +17,7 @@ A dedicated, lightweight web platform engineered to empower women's personal saf
 ## 🎬 Project Demo
 
 <p align="center">
-  <a href="assets/demo.gif">Watch Project Demo</a>
+  <a href="assets/Untitled.gif">Watch Project Demo</a>
 </p>
 
 ---
