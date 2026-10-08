@@ -14,15 +14,9 @@ A dedicated, lightweight web platform engineered to empower women's personal saf
 
 ---
 
-## 🎥 Project Demo
+## 🎬 Project Demo
 
-<div align="center">
-  <!-- Replace YOUR_VIDEO_ID or replace this block with ![SafeHer Demo](assets/demo.gif) -->
-  <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
-    <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg" alt="SafeHer Demo Walkthrough" width="720">
-  </a>
-  <p><em>💡 Click the preview banner above to watch the full platform walkthrough.</em></p>
-</div>
+![SafeHer Demo](assets/demo.gif)
 
 ---
 
