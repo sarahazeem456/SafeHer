@@ -16,7 +16,9 @@ A dedicated, lightweight web platform engineered to empower women's personal saf
 
 ## 🎬 Project Demo
 
-![SafeHer Demo](assets/demo.gif)
+<div align="center">
+  <img src="assets/demo.gif" alt="SafeHer Demo" width="720" />
+</div>
 
 ---
 
